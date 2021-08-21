@@ -1,0 +1,14 @@
+{
+    "name": "toy-robot",
+    "version": "1.0.0",
+    "description": "Toy Robot Coding Challenge",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^27.0.6"
+    }
+}
