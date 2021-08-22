@@ -64,7 +64,7 @@ class ToyRobot {
     console.log(`${this.xPos},${this.yPos},${this.currentDirection}`);
   }
 
-  processCommand({ commandType, xPos, yPos, direction }) {
+  processCommand({ commandType, xPos, yPos, direction } = {}) {
     if (this.invalidCommand(commandType)) return;
 
     switch (commandType) {
