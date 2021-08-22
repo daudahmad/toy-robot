@@ -21,16 +21,21 @@ The toy robot must not fall off the table during movement. This also includes th
 
 `Input is taken from a file.`
 
-#### Building and running the solution
+### Building and running the solution
 
 Developed and tested using `Node v14`
 
 ```
 npm install --silent
 npm start --silent <path_to_input_file>
+```
+
+### Testing 
+
+```
 npm test --silent
 ```
 
-#### Test data 
+Test data is at `test/data`\ 
 
-Added to `test/data`, can be tested using `npm start --silent test/data/input-1.txt` or by running tests.
+It can be tested using `npm start --silent test/data/input-1.txt` or by running tests using `npm test`
