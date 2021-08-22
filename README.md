@@ -8,7 +8,7 @@ Create a ​console application​ that can read in commands of the following fo
 PLACE X,Y,F\
 MOVE LEFT\
 RIGHT\
-REPORT\
+REPORT
 
 PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. The origin (0,0) can be considered to be the SOUTH WEST most corner. It is required that the first command to the robot is a PLACE command, after that, any sequence of commands may be issued, in any order, including another PLACE command. The application should discard all commands in the sequence until a valid PLACE command has been executed.
 MOVE will move the toy robot one unit forward in the direction it is currently facing.
@@ -19,7 +19,7 @@ A robot that is not on the table can choose to ignore the MOVE, LEFT, RIGHT and 
 Constraints:
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot. Any move that would cause the robot to fall must be ignored.
 
-Input is taken from a file.
+`Input is taken from a file.`
 
 #### Building and running the solution
 
