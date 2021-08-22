@@ -25,3 +25,4 @@ yarn-error.log*
 settings.json
 cloudformation.schema.json
 sam.schema.json
+.vscode

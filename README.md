@@ -23,12 +23,16 @@ The application should handle error states appropriately and be robust to user i
 Constraints:
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot. Any move that would cause the robot to fall must be ignored.
 
-# Javascript
-
 #### Building and running the solution
+
+Developed and tested using `Node v14`
 
 ```
 npm install --silent
-npm start --silent <absolute_path_to_input_file>
+npm start --silent <path_to_input_file>
 npm test --silent
 ```
+
+#### Test data 
+
+Added to `test/data`, can be tested using `npm start --silent test/data/input-1.txt` or by running tests.
