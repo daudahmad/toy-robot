@@ -36,6 +36,6 @@ npm start --silent <path_to_input_file>
 npm test --silent
 ```
 
-Test data is at `test/data`\ 
+Test data is at `test/data`
 
 It can be tested using `npm start --silent test/data/input-1.txt` or by running tests using `npm test`
